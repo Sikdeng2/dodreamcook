@@ -15,12 +15,22 @@ header {
     background-position: center top;
 }
 
+.card-hover:hover{
+    cursor: pointer;
+    background-color: palegoldenrod;
+}
+
 #sns-links{
     background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(../images/sns-bg.jpg);
     background-size: cover;
     background-position: center;
 }
 
+#news{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
 @media(min-width:768px){
     .sns{
     width: 50%;
